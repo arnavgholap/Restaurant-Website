@@ -2,7 +2,7 @@
 
 Welcome to Arnav's Kitchen restaurant website, the online hub for all your dining needs! Our website is designed to offer a seamless and delightful experience for those looking to explore, book, and enjoy the finest culinary offerings. Built using HTML, CSS, and JavaScript, our site promises to be both visually appealing and user-friendly.
 
-**Link to the website** : 
+**Link to the website** : https://restaurant-website-arnavgholaps-projects.vercel.app/
 
 ## Features:
 
