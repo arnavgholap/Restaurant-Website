@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Restaurant LandingPage</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"> <!--for icons-->
+    <link rel="icon" type="image/png" href="images/favicon-32x32.png">
+</head>
+<body>
+    <!-- NERDYCODECRAFTER -->
+    <!------------------------ Header Begin ------------------------>
+    <header class="header" data-header>
+        <div class="header_wrapper">
+            <a href="#" class="logo">
+                <img src="images/logo.png" alt="" width="50" height="50">
+            </a>
+        <!------------------------ Navigation Begin ------------------------>
+            <nav class="navbar pretty" data-navbar>
+                <button class="close_btn row" aria-label="close menu" data-nav-toggler>
+                    <i class='bx bx-x'></i> 
+                </button>
+                <a href="#" class="logo heading">Arnav's <span>Kitchen</span> </a><br>
+
+                <ul class="navbar_list" role="list">
+                    <li class="navbar_item">
+                        <a href="#home" class="active navbar_link">
+                            <div class="separator"></div>
+                            <span class="span">home</span>
+                        </a>
+                    </li>
+                    <li class="navbar_item">
+                        <a href="#about" class="navbar_link">
+                            <div class="separator"></div>
+                            <span class="span">about</span>
+                        </a>
+                    </li>
+                    <li class="navbar_item">
+                        <a href="#menu" class="navbar_link">
+                            <div class="separator"></div>
+                            <span class="span">menu</span>
+                        </a>
+                    </li>
+                    <li class="navbar_item">
+                        <a href="#reservation" class="navbar_link">
+                            <div class="separator"></div>
+                            <span class="span">reservation</span>
+                        </a>
+                    </li>
+                    <li class="navbar_item">
+                        <a href="#blog" class="navbar_link">
+                            <div class="separator"></div>
+                            <span class="span">blog</span>
+                        </a>
+                    </li>
+                    <li class="navbar_item">
+                        <a href="#gallery" class="navbar_link">
+                            <div class="separator"></div>
+                            <span class="span">gallery</span>
+                        </a>
+                    </li>
+                    <li class="navbar_item">
+                        <a href="#contact" class="navbar_link">
+                            <div class="separator"></div>
+                            <span class="span">contact</span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="text_center">
+                    <div class="navbar_title heading_text">Visit us!</div>
+                    <address class="body_4">Restaurant at 123, Arnav street, United States of America</address>
+                    <p class="navbar_text body_4 sub_title">Open from 9:30 AM untill 10:30 PM</p>
+                    <a href="mailto:name@restaurant.com" class="body_4 sidebar_link">
+                        name@restaurant.com
+                    </a>
+                    <div class="separator"></div>
+                    <p class="contact_label">Booking request</p>
+                    <a href="tel:+1234567890" class="contact_number">
+                        +1234567890
+                    </a>
+                </div>
+            </nav>
+        <!------------------------ Navigation Ended ------------------------>
+            <a href="#" class="btn">
+                <span class="text">Find a table</span>
+
+            </a>
+            <button class="nav_open_btn" aria-label="open menu" data-nav-toggler>
+                <span class="line line_1"></span>
+                <span class="line line_2"></span>
+                <span class="line line_3"></span>
+            </button>
+            <div class="overlay" data-nav-toggler data-overlay></div>
+        </div>
+    </header>
+    <!------------------------ Header Ended ------------------------>
+
+    <!------------------------ Main Begin ------------------------>
+    <main>
+        <!------------------------ Home Section Begin ------------------------>
+        <section id="home">
+            <div class="home_content container row">
+                <div class="border">
+                    <div class="foodz"></div>
+                </div>
+                <div class="foodz_text">
+                    <div class="heading_text">Welcome to Arnav's Kitchen</div>
+                    <p class="text">Lip smacking taste, which will make you come back for more.</p>
+                    <a href="#reservation" class="btn">Make a reservation!</a>
+                </div>
+            </div>
+        </section>
+        <!------------------------ Home Section Ended ------------------------>
+
+       
+
+               <!------------------------ Gallery Section Begin ------------------------>
+               <section id="gallery">
+                <div class="slider">
+                    <div class="list">
+                        <div class="item active">
+                            <img src="images/1.png" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="images/2.png" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="images/3.png" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="images/4.png" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="images/5.png" alt="">
+                        </div>
+                    </div>
+                    <div class="circle">
+                        Our - menu - gallery -
+                    </div>
+                    <div class="content">
+                        
+                    </div>
+                    <div class="arrows">
+                        <button id="prev"><</button>
+                        <button id="next">></button>
+                    </div>
+                </div>
+            </section>
+            <!------------------------ Gallery Section Ended ------------------------>
+
+        <!------------------------ About Section Begin ------------------------>
+        <section id="about">
+            <div class="about_container container row">
+                <div class="abt_text">
+                    <div class="heading_text">Arnav's Kitchen!</div>
+                    <p class="text">Welcome to Arnav's Kitchen, where we invite you to experience
+                        the authentic flavors of India in a charming and cozy atmosphere.
+                        Our passion for traditional Indian cuisine drives everything we do,
+                        from sourcing the freshest ingredients to crafting each dish with care and
+                        expertise.</p>
+                    <p class="text">At Arnav's Kitchen, we believe in the power of food to bring 
+                        people together.</p>
+                    <a href="#menu">
+                        <div class="btn">Our Menu!</div>
+                    </a>
+                </div>
+                <div class="abt_pics">
+                    <div class="abt_img img_one">
+                        <img src="images/about_bg (1).jpg" alt="">
+                    </div>
+                    <div class="abt_img img_two">
+                        <img src="images/about_bg (2).jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!------------------------ About Section Ended ------------------------>
+    
+        <!------------------------ Menu Section Begin ------------------------>
+        <section id="menu">
+            <div class="heading_text">---Our Menu---</div>
+            <div class="menu_container container row">
+                <div class="menu_card one pretty">
+                    <img src="images/pexels-harry-dona-2338407.jpg" alt="">
+                    <div class="img_text">
+                        <div class="sub_title">Paneer Butter Masala</div>
+                        
+                        <div class="money">$15.00</div>
+                    </div>
+                </div>
+                <div class="menu_card two pretty">
+                    <img src="images/pexels-harry-dona-2338407.jpg" alt="">
+                    <div class="img_text">
+                        <div class="sub_title">Bhendi Fry</div>
+                   
+                        <div class="money">$18.00</div>
+                    </div>
+                </div>
+                <div class="menu_card three pretty">
+                    <img src="images/pexels-harry-dona-2338407.jpg" alt="">
+                    <div class="img_text">
+                        <div class="sub_title">Dal Tadka</div>
+                       
+                        <div class="money">$20.00</div>
+                    </div>
+                </div>
+                <div class="menu_card four pretty">
+                    <img src="images/pexels-harry-dona-2338407.jpg" alt="">
+                    <div class="img_text">
+                        <div class="sub_title">Chicken Butter Masala</div>
+                        
+                        <div class="money">$17.00</div>
+                    </div>
+                </div>
+                <div class="menu_card five pretty">
+                    <img src="images/pexels-harry-dona-2338407.jpg" alt="">
+                    <div class="img_text">
+                        <div class="sub_title">Fish Butter Masala</div>
+                       
+                        <div class="money">$22.00</div>
+                    </div>
+                </div>
+                <div class="menu_card six pretty">
+                    <img src="images/pexels-harry-dona-2338407.jpg" alt="">
+                    <div class="img_text">
+                        <div class="sub_title">Vegetable Biryani </div>
+                      
+                        <div class="money">$15.00</div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!------------------------ Menu Section Ended ------------------------>
+
+        <!------------------------ Reservation Section Begin ------------------------>
+        <section id="reservation">
+            <div class="image_overlay pretty row">
+                <div class="res_img"></div>
+                <div class="left_book">
+                    <form action="" class="container">
+                        <div class="form_holder">
+                            <div class="heading_text">Book a reservation</div>
+                            <div class="sub_title">Check out our place</div>
+                            <div>
+                                <select title="people">
+                                    <option>1 people</option>
+                                    <option>2 people</option>
+                                    <option>3 people</option>
+                                    <option>4 people</option>
+                                </select>
+                                <input type="text" placeholder="time">
+                                <input type="text" placeholder="phone">
+                            </div>
+                            <div>
+                                <input type="text" placeholder="date">
+                                <input type="text" placeholder="name">
+                                <input type="email" placeholder="email">
+                            </div>
+                        </div>
+                        <a href="#" class="btn">book now</a>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!------------------------ Reservation Section Ended ------------------------>
+
+        <!------------------------ Contact Section Begin ------------------------>
+        <section id="contact">
+            <div class="heading_text">Contact Us</div>
+            <div class="text">
+                We await for your arrival.
+            </div>
+            <div class="contact_container container pretty">
+                <div class="row">
+                    <div class="contact_info">
+                        <div class="contact_info_item">
+                            <div class="contact_icon row">
+                                <i class='bx bx-home' ></i>
+                            </div>
+                            <div class="contact_info_content">
+                                <div class="sub_title">Address:</div>
+                                <div class="text">12345 road, abc, xyz, <br/>12345</div>
+                            </div>
+                        </div>
+                        <div class="contact_info_item">
+                            <div class="contact_icon row">
+                                <i class='bx bx-phone-call' ></i>
+                            </div>
+                            <div class="contact_info_content">
+                                <div class="sub_title">Phone:</div>
+                                <div class="text">7890642357668</div>
+                            </div>
+                        </div>
+                        <div class="contact_info_item">
+                            <div class="contact_icon row">
+                                <i class='bx bx-envelope' ></i>
+                            </div>
+                            <div class="contact_info_content">
+                                <div class="sub_title">E-mail:</div>
+                                <div class="text">abc@gmail.com</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact_form">
+                        <form action="" id="contactForm">
+                            <div class="sub_title">Send message here!</div>
+                            <label for="name" class="text">Name:</label>
+                            <input type="text" name="name" id="name" required><br>
+                            <label for="email" class="text">email:</label>
+                            <input type="email" name="email" id="email" required autocomplete="off"><br>
+                            <label for="message" class="text">message</label>
+                            <textarea name="message" id="message" required></textarea><br><br>
+                            <button type="submit" class="btn">send message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!------------------------ Contact Section Ended ------------------------>
+         <!------------------------ Blog Section Begin ------------------------>
+         <section id="blog">
+            <div class="heading_text">Blogs!!!</div>
+            <div class="blog_container container row">
+                <div class="bp_card pretty">
+                    <div class="bp_left">
+                        <img src="images/pexels-pixabay-262047.jpg" alt="">
+                        <div class="date_share row">
+                            <div class="date">
+                                <div class="num">25</div>
+                                <div class="month">December</div>
+                                <div class="share row">
+                                    <i class='bx bx-heart' ></i>
+                                    <i class='bx bx-envelope' ></i>
+                                    <i class='bx bx-share-alt' ></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bp_right">
+                        <div class="sub_title">Best Selling items from our menu!</div>
+                        <div class="author row">
+                            <img src="images/justin dude.png" alt="">
+                            <div class="auth_name">Arnav</div>
+                        </div>
+                        <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis consequatur,
+                             alias delectus praesentium doloribus deserunt ducimus qui impedit, 
+                        </div>
+                        <div class="arr row">
+                            <i class='bx bx-right-arrow-alt'></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="bp_card pretty">
+                    <div class="bp_left">
+                        <img src="images/pexels-pixabay-262047.jpg" alt="">
+                        <div class="date_share row">
+                            <div class="date">
+                                <div class="num">09</div>
+                                <div class="month">December</div>
+                                <div class="share row">
+                                    <i class='bx bx-heart' ></i>
+                                    <i class='bx bx-envelope' ></i>
+                                    <i class='bx bx-share-alt' ></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bp_right">
+                        <div class="sub_title">Types of curries in India!</div>
+                        <div class="author row">
+                            <img src="images/justin dude.png" alt="">
+                            <div class="auth_name">Arnav</div>
+                        </div>
+                        <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis consequatur,
+                             alias delectus praesentium doloribus deserunt ducimus qui impedit, 
+                        </div>
+                        <div class="arr row">
+                            <i class='bx bx-right-arrow-alt'></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="bp_card pretty">
+                    <div class="bp_left">
+                        <img src="images/pexels-pixabay-262047.jpg" alt="">
+                        <div class="date_share row">
+                            <div class="date">
+                                <div class="num">01</div>
+                                <div class="month">December</div>
+                                <div class="share row">
+                                    <i class='bx bx-heart' ></i>
+                                    <i class='bx bx-envelope' ></i>
+                                    <i class='bx bx-share-alt' ></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bp_right">
+                        <div class="sub_title">Combinations of food you must try!</div>
+                        <div class="author row">
+                            <img src="images/justin dude.png" alt="">
+                            <div class="auth_name">Arnav</div>
+                        </div>
+                        <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis consequatur,
+                             alias delectus praesentium doloribus deserunt ducimus qui impedit, 
+                        </div>
+                        <div class="arr row">
+                            <i class='bx bx-right-arrow-alt'></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="bp_card pretty">
+                    <div class="bp_left">
+                        <img src="images/pexels-pixabay-262047.jpg" alt="">
+                        <div class="date_share row">
+                            <div class="date">
+                                <div class="num">20</div>
+                                <div class="month">November</div>
+                                <div class="share row">
+                                    <i class='bx bx-heart' ></i>
+                                    <i class='bx bx-envelope' ></i>
+                                    <i class='bx bx-share-alt' ></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bp_right">
+                        <div class="sub_title">Introducing new items in our menus!</div>
+                        <div class="author row">
+                            <img src="images/justin dude.png" alt="">
+                            <div class="auth_name">Arnav</div>
+                        </div>
+                        <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis consequatur,
+                             alias delectus praesentium doloribus deserunt ducimus qui impedit, 
+                        </div>
+                        <div class="arr row">
+                            <i class='bx bx-right-arrow-alt'></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!------------------------ Blog Section Ended ------------------------>
+
+ 
+    </main>
+    <!------------------------ Main Ended ------------------------>
+
+    <!------------------------ Footer Begin ------------------------>
+    <footer class="footer pretty">
+        <div class="footer_container">
+            <div class="footer_content row">
+                <div class="footer_logo">
+                    <img src="images/logo.png" alt="">
+                </div>
+                <div class="footer_links">
+                    <ul role="list">
+                        <li><a href="#home">home</a></li>
+                        <li><a href="#menu">menu</a></li>
+                        <li><a href="#reservation">reservation</a></li>
+                        <li><a href="#about">about</a></li>
+                        <li><a href="#contact">contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer_newsletter">
+                    <div class="sub_title">Subscribe to our newsletter!</div>
+                    <form action="">
+                        <input type="email" name="email" placeholder="your email address" 
+                        required autocomplete="off">
+                        <button type="submit" class="btn">Subscribe</button>
+                    </form>
+                </div>
+                <div class="footer_social">
+                    <ul>
+                        <li><a href="#"><i class='bx bxl-facebook'></i></a></li>
+                        <li><a href="#"><i class='bx bxl-twitter' ></i></a></li>
+                        <li><a href="#"><i class='bx bxl-instagram-alt' ></i></a></li>
+                        <li><a href="#"><i class='bx bxl-linkedin' ></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer_bottom">
+                <p class="text">&copy; 2024. all rights reserved. | 
+                    designed with love by ARNAV
+                </p>
+            </div>
+        </div>
+    </footer>
+    <!------------------------ Footer Ended ------------------------>
+    
+
+    <!------------------------ Scroll to Top Ended ------------------------>
+
+<!------------------------ Script File ------------------------>
+<script src="main.js"></script>
+</body>
+</html>
